@@ -1,20 +1,30 @@
 import React from 'react';
+import { Button } from 'react-native';
 import { StyleSheet, Text, View } from 'react-native';
 
+
 export default class App extends React.Component {
+  constructor(){
+    super();
+    this.state = {
+      textValue : " "
+    }
+  }
+
+  onPress(){
+    
+  }
+
   render() {
     return (
       <View style={styles.container}>
         <View style={styles.boxone}>
            <Text style={styles.text1}>
-              Hello motherfucking world!
+            {this.state.textValue}
            </Text>
-        </View>
-       
-        <View style={styles.boxtwo}>
-          <Text style={styles.text2}>
-            What's up bitchaaassss!
-          </Text>
+           <Button onPress={this.onPress}
+             title="Click Me!"
+           />
         </View>
       </View>
       
@@ -37,15 +47,5 @@ const styles = StyleSheet.create({
   },
   text1: {
     color: 'blue',
-  },
-  boxtwo: {
-    flex: 1,
-    backgroundColor: 'blue',
-    alignSelf: 'stretch',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text2: {
-    color: '#ff0000',
   },
 });
