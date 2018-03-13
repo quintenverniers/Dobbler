@@ -7,25 +7,26 @@ export default class App extends React.Component {
   constructor(){
     super();
     this.state = {
-      textValue : " "
+      textValue:' '
     }
   }
 
   onPress(){
-    
+    var RandomNumber = Math.floor(Math.random() * 6) + 1 ;
+    this.setState({
+      number: RandomNumber
+    })
   }
 
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.boxone}>
            <Text style={styles.text1}>
-            {this.state.textValue}
+            {this.state.number}
            </Text>
-           <Button onPress={this.onPress}
-             title="Click Me!"
+           <Button style={styles.generateButton} onPress={this.onPress.bind(this)}
+             title="Roll!"
            />
-        </View>
       </View>
       
     );
@@ -35,17 +36,17 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  boxone: {
-    flex: 1,
-    backgroundColor: '#ff0000',
+    backgroundColor: '#8cf442',
     alignSelf: 'stretch',
     justifyContent: 'center',
     alignItems: 'center',
   },
   text1: {
-    color: 'blue',
+    color: 'red',
   },
+  generateButton: {
+    position: 'absolute',
+    bottom:0,
+    left:0,
+  }
 });
