@@ -3,21 +3,93 @@
 
     <item
         is-multidex="false"
-        jar="/Users/quinten/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_17cd469f2ef1c40e7ac1f78f86a689204bf4b3c5.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/libs/infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="9809e90be788acdb479b2b44e2112f3295a03068">
         <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_fbf2ca174ad860ea189bc0f4cdc84fa079e99fed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quinten/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_2742947e76a7ecb3add8076a7b4182980a1ad8db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_71279e36c12bc910cd74e011383559cc5f8041e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_55909f315c598d62dd5916703fb4601fa6b8086a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_f8782d03095ff376ad7a397fdf6e0644248011bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_ffe49a82bbe8d4f8d667825d9c8a455dffea1b4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_c6122cf2e753e2e58e9b96370235cbacec801985.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_1001781229530a51a714baca144ed1d2ba97b1c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quinten/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_6ad2d28e83541d667ff29ec901595918c0b1bc81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quinten/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_17cd469f2ef1c40e7ac1f78f86a689204bf4b3c5.jar" />
     </item>
     <item
         is-multidex="false"
@@ -39,30 +111,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/quinten/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_2742947e76a7ecb3add8076a7b4182980a1ad8db.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/quinten/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="6975da39a7040257bd51d21a231b76c915872d38">
         <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_391a13568457d78de275fd83774f612defdbe6c7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_71279e36c12bc910cd74e011383559cc5f8041e9.jar" />
     </item>
     <item
         is-multidex="false"
@@ -102,15 +156,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_55909f315c598d62dd5916703fb4601fa6b8086a.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -120,48 +165,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_f8782d03095ff376ad7a397fdf6e0644248011bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_ffe49a82bbe8d4f8d667825d9c8a455dffea1b4c.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
         <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.52.0_5474d8efaec0d77b4db2c3a647bd5e0e471aa64c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_c6122cf2e753e2e58e9b96370235cbacec801985.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_1001781229530a51a714baca144ed1d2ba97b1c2.jar" />
     </item>
     <item
         is-multidex="false"
@@ -180,15 +189,6 @@
         revision="23.0.1"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
         <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_3e4466fa0fd01bbf7ec19240ab59475a3ea7854a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/quinten/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Volumes/Media Drive/School/2017-2018/Semester 2/Project_1/React-Native Projects/Dobbler/DobblerApp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_6ad2d28e83541d667ff29ec901595918c0b1bc81.jar" />
     </item>
 
 </items>
