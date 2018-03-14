@@ -1,34 +1,38 @@
 import React from 'react';
-import { Button } from 'react-native';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, } from 'react-native';
 
 
 export default class App extends React.Component {
-  constructor(){
+  constructor() {
     super();
     this.state = {
-      textValue:' '
+      textValue: ' '
     }
   }
 
-  onPress(){
-    var RandomNumber = Math.floor(Math.random() * 6) + 1 ;
+  onPress() {
+    var RandomNumber = Math.floor(Math.random() * 6) + 1;
     this.setState({
       number: RandomNumber
     })
   }
 
+  showModal() {
+    this.setState({ isModalVisible: true})
+  }
+
   render() {
     return (
       <View style={styles.container}>
-           <Text style={styles.text1}>
-            {this.state.number}
-           </Text>
-           <Button style={styles.generateButton} onPress={this.onPress.bind(this)}
-             title="Roll!"
-           />
+        <Text style={styles.numberOutput}>
+          {this.state.number}
+        </Text>
+        <TouchableOpacity style={styles.button} onPress={this.onPress.bind(this)}>
+          <Text style={styles.buttonText}> Roll! </Text>
+        </TouchableOpacity>
+        <Text>© 2018 Quinten Verniers</Text>
       </View>
-      
+
     );
   }
 }
@@ -36,17 +40,25 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#8cf442',
-    alignSelf: 'stretch',
-    justifyContent: 'center',
+    //justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#6b7a8f',
   },
-  text1: {
-    color: 'red',
+  numberOutput: {
+    fontSize: 60,
+    flexGrow: 1,
+    marginTop: 300,
+    color: '#f7882f',
   },
-  generateButton: {
-    position: 'absolute',
-    bottom:0,
-    left:0,
+  button: {
+    alignItems: 'center',
+    width: 100,
+    marginBottom: 100,
+    padding: 10,
+    borderRadius: 15,
+    backgroundColor: '#f7c331',
+  },
+  buttonText: {
+    fontSize: 25,
   }
 });
