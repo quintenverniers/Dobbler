@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
   numberOutput: {
     fontSize: 60,
     flexGrow: 1,
-    marginTop: 300,
+    marginTop: 200,
     color: '#f7882f',
   },
   button: {
