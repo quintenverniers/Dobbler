@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Switch } from 'react-native';
 
 
 export default class App extends React.Component {
@@ -15,7 +15,6 @@ export default class App extends React.Component {
     colors = ['#ff0000','#f000ff','#00ecff','#89ff00','#fff400']; //lightblue; yellow darkblue lightlightblue purple
     color = colors[count];
     this.setState({
-      //count: this.count++,
       color: color
     });
   }
