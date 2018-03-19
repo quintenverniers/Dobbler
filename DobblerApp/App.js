@@ -6,15 +6,34 @@ export default class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      textValue: ' '
+      number: 'Welcome',
+      color: 'white',
     }
   }
 
-  onPress() {
-    var RandomNumber = Math.floor(Math.random() * 6) + 1;
+  changeOutputStyle(count){	
+    colors = ['#ff0000','#f000ff','#00ecff','#89ff00','#fff400']; //lightblue; yellow darkblue lightlightblue purple
+    color = colors[count];
     this.setState({
-      number: RandomNumber
+      //count: this.count++,
+      color: color
+    });
+  }
+
+  count = 0;
+
+  onPress() {
+    this.changeOutputStyle(this.count);
+    RandomNumber = Math.floor(Math.random() * 6) + 1;
+    this.setState({
+      number: RandomNumber,
     })
+    if(this.count == colors.length - 1){
+      this.count = 0;
+    } else {
+      this.count++;
+    }
+    
   }
 
   showModal() {
@@ -24,13 +43,13 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.numberOutput}>
+        <Text style={[styles.numberOutputGeneral, {color: this.state.color}]}>
           {this.state.number}
         </Text>
         <TouchableOpacity style={styles.button} onPress={this.onPress.bind(this)}>
-          <Text style={styles.buttonText}> Roll! </Text>
+          <Text style={styles.buttonText}> Roll </Text>
         </TouchableOpacity>
-        <Text>© 2018 Quinten Verniers</Text>
+        <Text style={{color: '#808080'}}>© 2018 Quinten Verniers</Text>
       </View>
 
     );
@@ -42,23 +61,25 @@ const styles = StyleSheet.create({
     flex: 1,
     //justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#6b7a8f',
+    backgroundColor: '#000',
   },
-  numberOutput: {
+  numberOutputGeneral: {
     fontSize: 60,
     flexGrow: 1,
-    marginTop: 200,
-    color: '#f7882f',
+    marginTop: 250,
+    //color: '#f7882f',
   },
   button: {
+    justifyContent: 'center',
     alignItems: 'center',
     width: 100,
     marginBottom: 100,
     padding: 10,
     borderRadius: 15,
-    backgroundColor: '#f7c331',
+    backgroundColor: '#262626',
   },
   buttonText: {
+    color: '#fff',
     fontSize: 25,
   }
 });
