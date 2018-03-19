@@ -32,7 +32,6 @@ export default class App extends React.Component {
     } else {
       this.count++;
     }
-    
   }
 
   showModal() {
