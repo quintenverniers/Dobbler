@@ -6,7 +6,7 @@ export default class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      number: 'Welcome',
+      number: 'Test',
       color: 'white',
     }
   }
